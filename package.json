@@ -4,9 +4,12 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "node ./bin/ww"
+    "start": "node index"
   },
   "keywords": [],
   "author": "Cristina and Rostyslav",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
