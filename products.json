@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "macarons",
+        "price": 8.50,
+        "type": "cookies",
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/808941/pexels-photo-808941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "cake pops",
+        "price": 7.00,
+        "type": "cakes",
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/33715/cake-pops-pastries-cake-sweet.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "cupcakes",
+        "price": 5.00,
+        "type" : "cupcakes",
+        "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "parfait",
+        "type": "other",
+        "price": 7.80,
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/3026810/pexels-photo-3026810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "coffee",
+        "type": "beverages",
+        "price": 3.50,
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "assorted pastries",
+        "type": "other",
+        "price": 6.00,
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "red velvet cupcake",
+        "type": "cupcakes",
+        "price": 4.00,
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/2525682/pexels-photo-2525682.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "chocolate cake",
+        "type": "cakes",
+        "price": 5.00,
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/3840200/pexels-photo-3840200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "hot chocolate",
+        "type": "beverages",
+        "price": 2.50,
+        "image": { "fields": { "file": { "url": "https://images.pexels.com/photos/1839882/pexels-photo-1839882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" } } }
+      }
+    }
+  ]
+}

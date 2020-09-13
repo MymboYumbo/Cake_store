@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grandma's</title>
+
+    <!-- CSS -->
+    <link
+      href="./resources/css/normalize.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="./resources/css/styles.css" 
+      rel="stylesheet" 
+      type="text/css" 
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/917416e9ab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!-- body -->
+  <body>
+    <!-- header -->
+    <header class=''>
+      <!-- navbar -->
+      <nav class="navbar">
+        <ul id="hamnav">
+          <label for="hamburger">
+            <i class="fas fa-bars"></i>
+          </label>
+          <input type="checkbox" id="hamburger" />
+          <div id="hamitems">
+            <li>
+              <img id="logo" src="./resources/images/logo.bmp" alt="store's logo" title="logo" />
+            </li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Store</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <button id='access-button'>access-mode</button>
+            </li>
+            <li>
+              <a href="#" class="nav-icon">
+                <i class="fas fa-phone"></i>
+                <span>+123 456 789</span>
+              </a>
+            </li>
+            <li class="cart-btn">
+              <a href="#" class="nav-icon">
+                <i class="fas fa-cart-arrow-down"></i>
+              </a>
+              <div class="cart-items">0</div>
+            </li>
+          </div>
+        </ul>
+      </nav>
+      <!-- end of navbar -->
+    </header>
+    <!-- end of header -->
+
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <div class="hero">
+        <div class="banner">
+          <h1 class="banner-title">Welcome to Grandma's</h1>
+          <a href="#sort-section"><button class="banner-btn">Explore</button></a>
+        </div>
+      </div>
+      <!-- end of hero -->
+
+      <!-- products -->
+      <section id='sort-section' class=''>
+        <h2>Our Sweet Treats</h2>
+          <div id='sort-buttons'>
+            <button id="beverages">Beverages</button>
+            <button id="cake">Cakes</button>
+            <button id="cookies">Cookies</button>
+            <button id="cupcakes">Cupcakes</button>
+            <button id="other">Other</button>
+            <button id="all">View All</button>
+        </div>
+      </section>
+
+      <section id="itemsGrid">
+        <div class="cards">
+          <!-- Inject product cards here -->
+        </div>
+      </section>
+      <!-- end of products -->
+
+      <!-- cart -->
+      <div class="cart-overlay">
+        <div class="cart">
+          <span class="close-cart">
+            <i class="fas fa-window-close"></i>
+          </span>
+          <h2>your cart</h2>
+          <div class="cart-content">
+          <!-- cart item -->
+           
+          <!-- end of cart item -->
+          </div>
+          <div class="cart-footer">
+            <h3>your total : $ <span class="cart-total">0</span></h3>
+            <button class="clear-cart banner-btn">clear cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- end of cart -->
+      <a href="#" id="myBtn">
+        <i class="fas fa-chevron-circle-up"></i>
+      </a>
+    </main>
+    <!-- end of main -->
+
+    <!-- footer -->
+    <footer class= ''>
+      <div class="footer-topLine">
+        <div>
+          <p>
+            Delicious Treats crafted with <i class="fas fa-heart"></i> in a
+            city
+          </p>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a class='footer-link' href=>Custom Orders</a></li> 
+            <li ><a class='footer-link' href=>Catering</a></li>
+            <li><a class='footer-link' href=>Delivery</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/" target=_blank>
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/" target=_blank>
+          <i class="fab fa-instagram-square fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/" target=_blank>
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+      </div>
+      <span class="copyright">© 2020 Grandma's. All rights reserved</span>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- linking the javascript file -->
+    <script src="script.js"></script>
+  </body>
+  <!-- end of the body -->
+</html>
